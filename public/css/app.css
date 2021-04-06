@@ -10001,3 +10001,38 @@ h3 {
     border-color: #dee2e6;
   }
 }
+
+/* App */
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav */
+
+/* Main */
+
+/* Footer */
+footer {
+    background-color: #422FBB;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: #FFFFFF;
+    font-size: 1.25em;
+    margin: 5px 0;
+    padding: 20px 0;
+}
+
+.footer__button--selected {
+    color: #ADADAD;
+}
+
+.vertical-line {
+    width: 1px;
+    background-color: #FFFFFF;
+    margin: 15px 0;
+}
