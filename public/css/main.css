@@ -1,0 +1,13 @@
+.user-status {
+    border: 1px solid black;
+    margin-bottom: 18px;
+}
+
+.tracking-list {
+    background-color: #898989;
+    margin-bottom: 8px;
+}
+
+.tracking-buttons {
+    border: 1px solid black;
+}
