@@ -10007,17 +10007,22 @@ h3 {
 #app {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 /* Nav */
 
 /* Main */
+main {
+    flex: 1 0 auto;
+}
 
 /* Footer */
 footer {
     background-color: #422FBB;
     display: flex;
     justify-content: space-around;
+    flex-shrink: 0;
 }
 
 footer a {
