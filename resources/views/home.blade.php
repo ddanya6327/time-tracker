@@ -20,7 +20,8 @@
                     Lv. 17
                 </div>
                 <div class="level__bar">
-                    80%
+                    <div class="level__bar__fill"></div>
+                    <div class="level__bar__text">80%</div>
                 </div>
             </div>
         </div>

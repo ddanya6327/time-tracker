@@ -10017,6 +10017,49 @@ main {
     flex: 1 0 auto;
 }
 
+.user-status {
+    padding: 15px;
+}
+
+.user-status__name {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.user-status__level {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.level__text {
+    color: #969696;
+}
+
+.level__bar {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #C4C4C4;
+    font-size: 12px;
+    margin: 0 20px 0 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.level__bar__fill {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+}
+
+.level__bar__text {
+    color: #FFFFFF;
+    z-index: 1;
+}
+
 /* Footer */
 footer {
     background-color: #422FBB;
