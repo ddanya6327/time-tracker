@@ -34,6 +34,9 @@
                 <div class="item__description">
                     I read the little prince up to page 55.
                 </div>
+                <div class="item__delete">
+                    X
+                </div>
             </div>
             <div class="list__item">
                 <div class="item__title">
@@ -42,12 +45,50 @@
                 <div class="item__description">
                     I read the little prince up to page 33.
                 </div>
+                <div class="item__delete">
+                    X
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="item__title">
+                    Reading - 2 hour
+                </div>
+                <div class="item__description">
+                    I read the little prince up to page 33.
+                </div>
+                <div class="item__delete">
+                    X
+                </div>
+            </div>            <div class="list__item">
+                <div class="item__title">
+                    Reading - 2 hour
+                </div>
+                <div class="item__description">
+                    I read the little prince up to page 33.
+                </div>
+                <div class="item__delete">
+                    X
+                </div>
+            </div>            <div class="list__item">
+                <div class="item__title">
+                    Reading - 2 hour
+                </div>
+                <div class="item__description">
+                    I read the little prince up to page 33. to looooooooooooo
+                    oooooooooooooooooooo
+                    ooooooooooooooooo
+                    ooooooooong
+                </div>
+                <div class="item__delete">
+                    X
+                </div>
             </div>
         </div>
 
         <div class="tracking-buttons">
-            <button>Time recoding</button>
-            <button>Edit tag</button>
+            <button class="tracking-btn btn-blue">Time recoding</button>
+            <button class="tracking-btn">Edit tag</button>
         </div>
     </div>
 </div>
