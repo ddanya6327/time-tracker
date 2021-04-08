@@ -1,13 +1,100 @@
+/* User Status */
 .user-status {
     border: 1px solid black;
     margin-bottom: 18px;
+    padding: 15px;
 }
 
-.tracking-list {
-    background-color: #898989;
-    margin-bottom: 8px;
+.user-status__name {
+    margin-bottom: 15px;
+    font-size: 24px;
 }
+
+.user-status__level {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.level__text {
+    color: #969696;
+}
+
+.level__bar {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #C4C4C4;
+    font-size: 12px;
+    margin: 0 20px 0 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.level__bar__fill {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+}
+
+.level__bar__text {
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+/* List */
+.tracking-list {
+    background-color: #F4F4F4;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+.list__item {
+    position: relative;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.item__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item__description {
+    color: #898989;
+}
+
+.item__delete {
+    top: 50%;
+    right: 15px;
+    position:absolute;
+    color: red;
+    user-select: none;
+    transform: translateY(-50%);
+}
+
+/* Buttons */
 
 .tracking-buttons {
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.tracking-btn {
+    height: 60px;
+    width: 45%;
+    background-color: #9D9EA8;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn-blue {
+    background-color: #484DC9;
 }
