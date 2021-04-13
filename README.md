@@ -13,4 +13,4 @@ https://www.figma.com/file/ft3FF8NDXwTIuPDbDoOzho/Time-App?node-id=0%3A1
 
 ## ER-Diagram
 
-![erd](https://user-images.githubusercontent.com/69433959/114518602-7f436b00-9c7a-11eb-97c4-95b989be868d.JPG)
+![erd2](https://user-images.githubusercontent.com/69433959/114527248-b87fd900-9c82-11eb-9a4d-d56b35e34152.JPG)
