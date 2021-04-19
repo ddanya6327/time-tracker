@@ -5,7 +5,9 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class tagsController extends Controller
+use App\Models\Tag;
+
+class TagController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -36,7 +38,8 @@ class tagsController extends Controller
      */
     public function show($id)
     {
-        //
+        return Tag::where('user_id', $id)
+                ->get();
     }
 
     /**
