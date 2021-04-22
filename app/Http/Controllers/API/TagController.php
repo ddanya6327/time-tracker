@@ -10,24 +10,18 @@ use App\Models\Tag;
 class TagController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return Tag::all();
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return Tag
      */
     public function store(Request $request)
     {
-        //
+        $tag = new Tag;
+        $tag->name = $request->name;
+        $tag->user_id = $request->user_id;
+        $tag->save();
+        return $tag;
     }
 
     /**

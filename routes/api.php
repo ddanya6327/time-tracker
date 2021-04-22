@@ -21,3 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('tag/{id}', [TagController::class, 'show']);
+Route::post('tag', [TagController::class, 'store']);
